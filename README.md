@@ -1,6 +1,16 @@
-# dotfiles
+#Ddotfiles
 
+## Setup
 
+### Examination
+
+/!\ Check `install.sh` first /!\
+
+### Installation
+
+```sh
+curl -s 'https://github.com/secureinfo42/dotfiles/raw/main/install.sh' -o - | /bin/bash
+```
 
 ## Content of `.ssh/config`
 
