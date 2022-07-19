@@ -9,7 +9,7 @@
 ### Installation
 
 ```sh
-curl -s 'https://github.com/secureinfo42/dotfiles/raw/main/install.sh' -o - | /bin/bash
+curl -s 'https://raw.githubusercontent.com/secureinfo42/dotfiles/main/install.sh' -o - | /bin/bash
 ```
 
 ## Content of `.ssh/config`
