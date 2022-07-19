@@ -9,7 +9,6 @@ curl -L 'https://github.com/secureinfo42/dotfiles/raw/main/dot_files.tbz' -o dot
 
 banner "Creating backup : dot_files-backup-$date.tbz"
 date=`date +"%Y-%m-%d@%H-%M"`
-cd ~
 tar cjf dot_files-backup-$date.tbz ~/.ssh/config ~/.config/htop/htoprc ~/.vim* ~/.zsh*
 
 banner "Extracting downloaded files"
