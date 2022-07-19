@@ -5,7 +5,7 @@ banner() {
 }
 
 banner "Downloading"
-curl -Lf 'https://github.com/secureinfo42/dotfiles/raw/main/dot_files.tbz' -o dot_files.tbz
+curl -L 'https://github.com/secureinfo42/dotfiles/raw/main/dot_files.tbz' -o dot_files.tbz
 
 banner "Creating backup : dot_files-backup-$date.tbz"
 date=`date +"%Y-%m-%d@%H-%M"`
