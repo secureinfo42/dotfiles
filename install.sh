@@ -14,5 +14,4 @@ tar cjf dot_files-backup-$date.tbz ~/.ssh/config ~/.config/htop/htoprc ~/.vim* ~
 banner "Extracting downloaded files"
 tar xjf dot_files.tbz -C ~/
 
-
-
+banner "Finished"
